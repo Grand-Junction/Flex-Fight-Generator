@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: #dbdbdb;
 }
 
 body {
@@ -20,6 +21,19 @@ h1 {
     margin-bottom: 0;
 }
 
-p {
+h2 {
     text-align: center;
 }
+
+#site-entry {
+    margin-left: 46%;
+    padding: 24px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font: 600 1rem Times;
+}
+
+#site-entry:hover {
+    background-color: rgb(209, 209, 209);
+}
+
