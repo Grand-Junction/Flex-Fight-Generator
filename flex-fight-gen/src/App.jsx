@@ -1,7 +1,8 @@
 import React from "react";
 import Welcome from "./Welcome";
 
-function App() {
+
+function App(props) {
   return (
     <div>
       <Welcome />
