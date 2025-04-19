@@ -1,8 +1,8 @@
 import React from "react";
 
-function Button(props) {
+function Button() {
     return (
-        <button onClick={props.clickFunction} type="button" id="site-entry">ENTER HERE</button>
+        <button type="button" id="site-entry">ENTER HERE</button>
     );
 }
 

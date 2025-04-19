@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Welcome from "./Welcome";
+import HomePage from "./HomePage";
 
 
-function App(props) {
+function App() {
+
+  const [ pageState, setPageState ] = useState(true);
+
+  function isClicked() {
+    console.log(`it works`);
+    setPageState((initialValue) => !initialValue);
+  }
+
   return (
-    <div>
-      <Welcome />
+    <div onClick={isClicked}>
+      {pageState ? <Welcome /> : <HomePage />}
     </div>
   );
 }
