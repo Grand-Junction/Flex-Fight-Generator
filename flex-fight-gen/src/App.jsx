@@ -8,7 +8,6 @@ function App() {
   const [ pageState, setPageState ] = useState(true);
 
   function isClicked() {
-    console.log(`it works`);
     setPageState((initialValue) => !initialValue);
   }
 
