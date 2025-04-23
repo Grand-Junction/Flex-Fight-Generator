@@ -52,6 +52,11 @@ ul {
     text-align: right;
 }
 
+ul[class="flex-parent-2"] {
+    display: flex;
+    justify-content: center;
+}
+
 li {
     list-style-type: none;
     padding: 0.5rem;
@@ -64,6 +69,10 @@ li[id="app-title"] {
 li[id="return-home"] {
     font: 550 1.1rem Times;
     align-self: center;
+}
+
+li[id="footer-copyright"] {
+    background-color: rgb(209, 209, 209);
 }
 
 
