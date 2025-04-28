@@ -44,17 +44,13 @@ nav, ul, li {
     margin: 0;
 }
 
+/* Header Styling */
 ul {
     display: flex;
     justify-content: space-between;
     background-color: rgb(209, 209, 209);
     padding: 1rem;
     text-align: right;
-}
-
-ul[class="flex-parent-2"] {
-    display: flex;
-    justify-content: center;
 }
 
 li {
@@ -71,8 +67,19 @@ li[id="return-home"] {
     align-self: center;
 }
 
+/* Footer Styling */
+ul[class="flex-parent-2"] {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 li[id="footer-copyright"] {
     background-color: rgb(209, 209, 209);
+    margin-left: 42%;
 }
+
+
 
 
