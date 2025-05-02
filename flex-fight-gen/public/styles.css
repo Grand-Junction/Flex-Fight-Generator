@@ -67,8 +67,6 @@ li[id="return-home"] {
     align-self: center;
 }
 
-/* Adjust the main card height, then create the Fight Card. */
-
 
 /* Main Card Styling */
 
@@ -85,6 +83,13 @@ li[id="return-home"] {
     border-radius: 5px;
 }
 
+/* Fight Card Styling */
+
+.fight-card {
+    background-color: #dbdbdb;
+    height: 600px;
+    width: 450px;
+}
 
 /* Footer Styling */
 ul[class="flex-parent-2"] {
