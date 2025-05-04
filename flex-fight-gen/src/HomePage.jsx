@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Card from "./MainCard";
+import MainCard from "./MainCard";
 
 function HomePage() {
     return (
         <div>
             <Header />
-            <Card />
+            <MainCard />
             <Footer />
         </div>
 
