@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import FightCard from "./FightCard";
 
 function MainCard() {
+
+    const [ updateState, setUpdateState ] = useState(true);
+
+    function setState() {
+        setUpdateState((updateState) => !updateState);
+    }
+
     return (
-        <FightCard />
+        <div onClick={setState}>
+            <FightCard />
+        </div>
     );
 }
 

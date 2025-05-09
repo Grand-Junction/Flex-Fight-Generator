@@ -121,6 +121,10 @@ li[id="return-home"] {
    font-weight: 600;
 }
 
+.fight-btn:hover {
+    background-color: rgb(209, 209, 209);
+}
+
 /* Footer Styling */
 ul[class="flex-parent-2"] {
     position: fixed;

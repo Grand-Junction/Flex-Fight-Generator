@@ -5,9 +5,10 @@ function Welcome() {
 
     return (
     <div id="welcome-div">
-        <h1>Welcome to Dear Days 2!</h1>
+        {/* <h1>Welcome to Dear Days 2!</h1>
         <h2>Prepare to test your mettle! No lose intended!</h2>
-        <Button />
+        <Button /> */}
+        <h1>Welcome to Home Page</h1>
     </div>
     );
 }
