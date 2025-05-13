@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import Welcome from "./Welcome";
+import HomePage from "./HomePage";
 
 function App() {
 
+  const [goToHome, setGoToHome] = useState(true);
+
+  function goHome() {
+    setGoToHome((goToHome) => !goToHome);
+  }
+
   return (
-    <h1>Welcome Page</h1>
+    <div onClick={goHome}>
+      {goToHome ? <Welcome /> : <HomePage />}
+    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import MainCard from "./MainCard";
@@ -7,10 +7,13 @@ function HomePage() {
 
     return (
         <div>
-            <Header />
+            {/* <Header />
             <MainCard />
-            <Footer />
+            <Footer /> */}
+            <h1>Home Page Component:</h1>
+            <p>consists of Header, Main Card, Footer</p>
         </div>
+
     );
  
 }
