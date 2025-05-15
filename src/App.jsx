@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Welcome from "./Welcome";
 import HomePage from "./HomePage";
 
-function App() {
+function App(props) {
 
   const [goToHome, setGoToHome] = useState(true);
 

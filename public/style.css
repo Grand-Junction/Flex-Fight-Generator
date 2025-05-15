@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: gainsboro;
+  background-color: rgb(220, 220, 220);
 }
 
 /* WELCOME COMPONENT STYLING */
@@ -27,6 +27,20 @@
 }
 
 .welcome-div-2 h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 300;
 }
 
+/* BUTTON COMPONENT STYLING */
+
+.btn-component {
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 550;
+    border: 1px solid black;
+}
+
+.btn-component:hover {
+    background-color: rgb(206, 205, 205);
+}
