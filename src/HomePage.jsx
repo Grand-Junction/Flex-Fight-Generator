@@ -9,7 +9,8 @@ function HomePage() {
         <div id="homepage-parent">
             <Header />
             {/* <MainCard />
-            <Footer /> */}
+             */}
+            <Footer />
         </div>
 
     );

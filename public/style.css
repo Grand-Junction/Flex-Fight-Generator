@@ -71,3 +71,23 @@
     margin-right: 1.1rem;
 }
 
+/* FOOTER COMPONENT STYLING */
+
+.footer-parent {
+    position: fixed;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(206, 205, 205);
+}
+
+.footer-child {
+    list-style-type: none;
+    background-color: rgb(206, 205, 205);
+    font-weight: 600;
+}
