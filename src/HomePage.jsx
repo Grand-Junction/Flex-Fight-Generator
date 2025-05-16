@@ -6,13 +6,11 @@ import MainCard from "./MainCard";
 function HomePage() {
 
     return (
-        <div id="homepage-parent">
+        <div id="homepage-parent-div">
             <Header />
-            {/* <MainCard />
-             */}
+            <MainCard />
             <Footer />
         </div>
-
     );
  
 }

@@ -1,17 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import FightCard from "./FightCard";
 
 function MainCard() {
-
-    const [ updateState, setUpdateState ] = useState(true);
-
-    function setState() {
-        setUpdateState((updateState) => !updateState);
-    }
-
     return (
-        <div onClick={setState}>
-            <FightCard />
+        <div id="main-card-div">
+            {/* <FightCard /> */}
+            <h1>This is the main card</h1>
         </div>
     );
 }

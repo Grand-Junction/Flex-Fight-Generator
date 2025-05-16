@@ -47,10 +47,18 @@
     background-color: rgb(206, 205, 205);
 }
 
+/* HOMEPAGE COMPONENT STYLING */
+
+#homepage-parent-div {
+    position: absolute;
+    width: 100%;
+}
+
 /* HEADER COMPONENT STYLING */
 
 #header-parent {
     margin: 0;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,11 +79,30 @@
     margin-right: 1.1rem;
 }
 
+/* MAIN COMPONENT STYLING */
+
+#main-card-div {
+    background-color: rgb(206, 205, 205);
+    position: relative;
+    top: 1rem;
+    left: 8.5rem;
+    width: 85%;
+    height: 800px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+#main-card-div * {
+    background-color: rgb(206, 205, 205);
+}
+
 /* FOOTER COMPONENT STYLING */
 
 .footer-parent {
-    position: fixed;
+    position: relative;
     margin: 0;
+    top: 1rem;
     left: 0;
     bottom: 0;
     display: flex;
@@ -86,8 +113,11 @@
     background-color: rgb(206, 205, 205);
 }
 
+.footer-parent  * {
+     background-color: rgb(206, 205, 205);
+}
+
 .footer-child {
     list-style-type: none;
-    background-color: rgb(206, 205, 205);
     font-weight: 600;
 }
