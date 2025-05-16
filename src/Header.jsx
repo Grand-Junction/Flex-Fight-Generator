@@ -1,12 +1,13 @@
 import React from "react";
+import Button from "./Button";
 
 function Header() {
     return (
         <header>
             <nav>
-                <ul className="flex-parent">
-                    <li className="flex-child" id="app-title">Dear Days Fight Generator</li>
-                    <li className="flex-child" id="return-home">Return Home</li>
+                <ul id="header-parent">
+                    <li className="header-child" id="app-title">Dear Days Fight Generator</li>
+                    <span id="header-btn"><Button btnText="RETURN HOME" /></span>
                 </ul>
             </nav>
         </header>

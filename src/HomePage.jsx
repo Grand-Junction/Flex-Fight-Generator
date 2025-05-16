@@ -6,12 +6,10 @@ import MainCard from "./MainCard";
 function HomePage() {
 
     return (
-        <div>
-            {/* <Header />
-            <MainCard />
+        <div id="homepage-parent">
+            <Header />
+            {/* <MainCard />
             <Footer /> */}
-            <h1>Home Page Component:</h1>
-            <p>consists of Header, Main Card, Footer</p>
         </div>
 
     );

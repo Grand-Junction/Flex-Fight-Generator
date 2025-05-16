@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   background-color: rgb(220, 220, 220);
+  margin: 0;
 }
 
 /* WELCOME COMPONENT STYLING */
@@ -14,7 +15,7 @@
 
 .welcome-div-2 {
     grid-column: span 3;
-    grid-row: 4 / span 3;
+    grid-row: 5 / span 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,12 +30,13 @@
 .welcome-div-2 h2 {
     font-size: 1.7rem;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 /* BUTTON COMPONENT STYLING */
 
 .btn-component {
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     font-size: 12px;
     font-weight: 550;
@@ -44,3 +46,28 @@
 .btn-component:hover {
     background-color: rgb(206, 205, 205);
 }
+
+/* HEADER COMPONENT STYLING */
+
+#header-parent {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.2rem;
+    background-color: rgb(206, 205, 205);
+}
+
+.header-child {
+    list-style-type: none;
+    background-color: rgb(206, 205, 205);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+#header-btn {
+    margin-right: 1.1rem;
+}
+
