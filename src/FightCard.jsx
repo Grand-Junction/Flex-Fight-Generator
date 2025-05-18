@@ -6,13 +6,8 @@ function FightCard() {
 
     return (
         <>
-            <div className="main-card">
-                {/* <div className="fight-card">
-                    <RandomOppDefault /> 
-                </div>
-                <div className="fight-card">  
-                    <SelectNationDefault />
-                </div> */}
+            <div className="fight-card">
+                <RandomOppDefault /> 
             </div>
         </>
     ) ;

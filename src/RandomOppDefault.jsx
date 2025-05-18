@@ -1,12 +1,13 @@
 import React from "react";
+import Button from "./Button";
 
 function RandomOppDefault() {
 
         return (
             <>
-                <h2>RANDOM OPP:</h2>
+                <h2>RANDOM OPPONENT:</h2>
                 <img src="https://picsum.photos/275/400" alt="" />
-                <button type="button" className="fight-btn" id="fight-btn-random">FIGHT!</button>
+                <Button btnText="TIME TO FIGHT!"/>
             </>
         );
 }
