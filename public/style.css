@@ -98,8 +98,14 @@
 
 /* FIGHT CARD COMPONENT STYLING */
 
+#fight-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
 .fight-card {
-    border: 0px solid black;
+    border: 0.5px solid rgb(206, 205, 205);
     border-radius: 5px;
     height: 600px;
     padding: 2rem;
@@ -109,10 +115,7 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-}
-
-#fight-card-btn {
-    
+    margin: 1.5rem;
 }
 
 /* FOOTER COMPONENT STYLING */
@@ -127,7 +130,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     background-color: rgb(206, 205, 205);
 }
 

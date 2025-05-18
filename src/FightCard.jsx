@@ -5,11 +5,14 @@ import SelectNationDefault from "./SelectNationDefault";
 function FightCard() {
 
     return (
-        <>
+        <div id="fight-main-div">
             <div className="fight-card">
                 <RandomOppDefault /> 
             </div>
-        </>
+            <div className="fight-card">
+                <SelectNationDefault />
+            </div>
+        </div>
     ) ;
 }
 
