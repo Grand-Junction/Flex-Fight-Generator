@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from 'react-router-dom';
 import Button from "./Button"
 
 function SelectNationDefault() {
@@ -6,7 +6,7 @@ function SelectNationDefault() {
         <>
             <h2 id="nation">SELECT NATION:</h2>
             <img src="https://picsum.photos/275/400" alt="" />
-            <Button btnText="TIME TO FIGHT!"/>
+            <Link to="/select"><Button btnText="TIME TO FIGHT!"/></Link>
         </>
     );
 }

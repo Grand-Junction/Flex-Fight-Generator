@@ -1,18 +1,18 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import MainCardDefault from './MainCardDefault';
+import MainCardSelectNation from "./MainCardSelectNation";
 
-function HomePage() {
+function SelectNationPage() {
 
     return (
         <div id="homepage-parent-div">
             <Header />
-                <MainCardDefault />
+                <MainCardSelectNation />
             <Footer />
         </div>
     );
  
 }
 
-export default HomePage;
+export default SelectNationPage;

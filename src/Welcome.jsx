@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from 'react-router-dom';
 import Button from "./Button";
 
 function Welcome() {
@@ -8,7 +8,7 @@ function Welcome() {
         <div className="welcome-div-2">
             <h1 id="welcome-child-1">Welcome to Dear Days 2!</h1>
             <h2>Prepare to test your mettle! No lose intended!</h2>
-            <span><Button btnText="ENTER HERE" /></span> 
+            <Link to="/homepage"><Button btnText="ENTER HERE" /></Link>
         </div>
     </div>
     );

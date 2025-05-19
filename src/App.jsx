@@ -1,19 +1,31 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Welcome from "./Welcome";
 import HomePage from "./HomePage";
+import RandomOppPage from "./RandomOppPage";4
+import SelectNationPage from "./SelectNationPage";
 
 function App() {
 
-  const [goToHome, setGoToHome] = useState(true);
-
-  function goHome() {
-    setGoToHome((goToHome) => !goToHome);
-  }
-
   return (
-    <div onClick={goHome}>
-      {goToHome ? <Welcome /> : <HomePage />}
-    </div>
+    <Router>
+        <div>
+          <Switch>
+            <Route exact path="/">
+                <Welcome />
+            </Route>
+            <Route path="/homepage">
+                <HomePage />
+            </Route>
+            <Route path="/random">
+                <RandomOppPage />
+            </Route>
+            <Route path="/select">
+                <SelectNationPage />
+            </Route>
+          </Switch>
+        </div>
+    </Router>
   );
 }
 

@@ -1,18 +1,18 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import MainCardDefault from './MainCardDefault';
+import MainCardRandomOpp from "./MainCardRandomOpp";
 
-function HomePage() {
+function RandomOppPage() {
 
     return (
         <div id="homepage-parent-div">
             <Header />
-                <MainCardDefault />
+                <MainCardRandomOpp />
             <Footer />
         </div>
     );
  
 }
 
-export default HomePage;
+export default RandomOppPage;

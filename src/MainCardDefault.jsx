@@ -1,7 +1,7 @@
 import React from "react";
 import FightCard from "./FightCard";
 
-function MainCard() {
+function MainCardDefault() {
     return (
         <div id="main-card-div">
             <FightCard />
@@ -9,4 +9,4 @@ function MainCard() {
     );
 }
 
-export default MainCard;
+export default MainCardDefault;
