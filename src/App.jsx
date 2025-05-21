@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Welcome from "./Welcome";
 import HomePage from "./HomePage";
-import RandomOppPage from "./RandomOppPage";4
+import RandomOppPage from "./RandomOppPage";
 import SelectNationPage from "./SelectNationPage";
 
 function App() {
