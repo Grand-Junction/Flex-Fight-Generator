@@ -209,6 +209,29 @@ const Fighters = [
     fighter: 'Taizo Kiyokura',
     nation: 'Brandt Gate',
     level: [ 'Hard', 'Very Hard' ]
+  },
+  {
+    id: 38,
+    fighter: 'Jinki Mukae',
+    nation: 'Keter Sanctuary',
+    level: [ 'Very Hard' ]
+  },
+  {
+    id: 39,
+    fighter: 'Senka Kanae',
+    nation: 'Brandt Gate',
+    level: [ 'Very Hard' ]
+  },
+  {
+    id: 39,
+    fighter: 'Kyohma Kurosaki',
+    nation: 'Dragon Empire',
+    level: [ 'Very Hard' ]
+  },
+  {
+    id: 40,
+    fighter: 'Yuna Saionji',
+    nation: 'Lyrical Monasterio',
+    level: [ 'Very Hard' ]
   }
-
 ];
