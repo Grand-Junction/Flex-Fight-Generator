@@ -120,6 +120,14 @@
     margin: 1.5rem;
 }
 
+#random-opp-h2 {
+    font-size: 2.5rem;
+}
+
+#random-result-h2 {
+    font-size: 2.5rem;
+}
+
 /* RESULTS CARD COMPONENT STYLING */
 
 .results-btn {
@@ -131,6 +139,23 @@
 
 .results-btn * {
     margin: 0.15rem;
+}
+
+.random-selected-fighter {
+    font-size: 3rem;
+}
+
+.rendered-fighter-random {
+    /* border: 1px solid black; */
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rendered-fighter-random h3[id='difficulty'] {
+    margin-top: 1rem;
 }
 
 /* FOOTER COMPONENT STYLING */

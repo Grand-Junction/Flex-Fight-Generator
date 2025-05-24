@@ -223,15 +223,17 @@ const Fighters = [
     level: [ 'Very Hard' ]
   },
   {
-    id: 39,
+    id: 40,
     fighter: 'Kyohma Kurosaki',
     nation: 'Dragon Empire',
     level: [ 'Very Hard' ]
   },
   {
-    id: 40,
+    id: 41,
     fighter: 'Yuna Saionji',
     nation: 'Lyrical Monasterio',
     level: [ 'Very Hard' ]
   }
 ];
+
+export default Fighters;
