@@ -1,6 +1,4 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+
 import Button from "./Button";
 import Fighters from "./Fighters";
 import RenderedFighterRandom from "./RenderedFighterRandom";
@@ -14,7 +12,7 @@ function RandomOppResult() {
         const randomFighterName = Fighters[randomFighter].fighter;
         const randomFighterLevel = Fighters[randomFighter].level[Math.floor(Math.random() * Fighters[randomFighter].level.length)];
   
-        console.log(randomFighterID, randomFighterName, randomFighterLevel);
+        // console.log(randomFighterID, randomFighterName, randomFighterLevel);
 
         return <RenderedFighterRandom 
         key={randomFighterID}
