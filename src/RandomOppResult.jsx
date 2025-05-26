@@ -23,7 +23,7 @@ function RandomOppResult() {
     }
 
     function refreshPage() {
-        fetcher.load("/random");
+        fetcher.load("/https://flex-fight-generator.vercel.app/random");
     }
 
     return (
