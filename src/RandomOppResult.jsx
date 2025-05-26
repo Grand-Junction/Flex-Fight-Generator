@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
+import { useFetcher } from '@axanc/react-hooks';
 import Button from "./Button";
 import Fighters from "./Fighters";
 import RenderedFighterRandom from "./RenderedFighterRandom";
 
 function RandomOppResult() {
+
+    const fetcher = useFetcher();
 
     function randomRendered() {
 
@@ -19,12 +22,16 @@ function RandomOppResult() {
         />
     }
 
+    function refreshPage() {
+        fetcher.load("/random");
+    }
+
     return (
         <div id="fight-main-div">
             <div className="fight-card">
                 {randomRendered()}
                  <div className="results-btn">
-                    <span onClick={randomRendered}><Button btnText="NEW RANDOM OPPONENT"/></span>
+                    <span onClick={refreshPage}><Button btnText="NEW RANDOM OPPONENT"/></span>
                     <Link to='/homepage'><Button btnText="RETURN TO FIGHT PAGE"/></Link>
                 </div>
             </div>
