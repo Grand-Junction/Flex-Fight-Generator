@@ -19,16 +19,12 @@ function RandomOppResult() {
         />
     }
 
-    function refreshPage() {
-        return window.location.reload();
-    }
-
     return (
         <div id="fight-main-div">
             <div className="fight-card">
                 {randomRendered()}
                  <div className="results-btn">
-                    <span onClick={refreshPage}><Button btnText="NEW RANDOM OPPONENT"/></span>
+                    {/* <span><Button btnText="NEW RANDOM OPPONENT"/></span> */}
                     <Link to='/homepage'><Button btnText="RETURN TO FIGHT PAGE"/></Link>
                 </div>
             </div>
