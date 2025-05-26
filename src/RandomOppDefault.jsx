@@ -7,7 +7,9 @@ function RandomOppDefault() {
             <>
                 <h2 id='random-opp-h2'>RANDOM OPPONENT:</h2>
                 {/* <img src="https://picsum.photos/275/400" alt="" /> */}
-                <Link to="/random"><Button btnText="TIME TO FIGHT!"/></Link>
+                <div className="results-btn">
+                    <Link to="/random"><Button btnText="TIME TO FIGHT!"/></Link>
+                </div>
             </>
         );
 }
