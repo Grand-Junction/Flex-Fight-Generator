@@ -4,16 +4,12 @@ import Button from "./Button";
 
 function Header() {
 
-    function refreshPage() {
-        window.location.reload();
-    }
-
     return (
         <header>
             <nav>
                 <ul id="header-parent">
                     <li className="header-child" id="app-title">Dear Days Fight Generator</li>
-                    <span id="header-btn" onClick={refreshPage}><Link to="/homepage"><Button btnText="RETURN HOME" /></Link></span>
+                    <span id="header-btn"><Link to="/homepage"><Button btnText="RETURN HOME" /></Link></span>
                 </ul>
             </nav>
         </header>
