@@ -20,7 +20,7 @@ function RandomOppResult() {
     }
 
     function refreshPage() {
-        window.location.refresh();
+        window.location.reload();
     }
 
     return (
