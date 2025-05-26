@@ -1,12 +1,9 @@
 import { Link } from 'react-router-dom';
-import { useFetcher } from '@axanc/react-hooks';
 import Button from "./Button";
 import Fighters from "./Fighters";
 import RenderedFighterRandom from "./RenderedFighterRandom";
 
 function RandomOppResult() {
-
-    const fetcher = useFetcher();
 
     function randomRendered() {
 
@@ -23,7 +20,7 @@ function RandomOppResult() {
     }
 
     function refreshPage() {
-        fetcher.load("/https://flex-fight-generator.vercel.app/random");
+        return window.location.reload();
     }
 
     return (
