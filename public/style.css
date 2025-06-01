@@ -157,7 +157,11 @@ body {
 }
 
 .rendered-fighter-random h3[id='difficulty'] {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+}
+
+.rendered-fighter-random h3[id='bossTxt'] {
+    font-weight: 400;
 }
 
 /* FOOTER COMPONENT STYLING */

@@ -10,11 +10,13 @@ function RandomOppResult() {
         const randomFighter = Math.floor(Math.random() * Fighters.length) + 1;
         const randomFighterID = Fighters[randomFighter].id;
         const randomFighterName = Fighters[randomFighter].fighter;
+        const randomFighterMain = Fighters[randomFighter].main;
         const randomFighterLevel = Fighters[randomFighter].level[Math.floor(Math.random() * Fighters[randomFighter].level.length)];
 
         return <RenderedFighterRandom 
         key={randomFighterID}
         selectedFighter={randomFighterName} 
+        selectedMain={randomFighterMain}
         selectedLevel={randomFighterLevel}
         />
     }
