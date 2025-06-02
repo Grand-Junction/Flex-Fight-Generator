@@ -161,6 +161,7 @@ body {
 }
 
 .rendered-fighter-random h3[id='bossTxt'] {
+    font-size: 1.3rem;
     font-weight: 400;
 }
 

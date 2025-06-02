@@ -137,7 +137,7 @@ const Fighters = [
     id: 20,
     fighter: 'Mika Shibuya',
     nation: 'Lyrical Monasterio',
-    main: 'Astesice-Live, Kairi',
+    main: 'AstesicexLive, Kairi',
     level: [ 'Easy', 'Normal', 'Hard', 'Very Hard' ]
   },
   {
