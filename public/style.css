@@ -13,7 +13,7 @@ body {
 
 #welcome-div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(417px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
     grid-template-rows: repeat(12, 1fr);
     gap: 3px;
 }
@@ -87,6 +87,36 @@ body {
 @media only screen and (max-width: 580px) {
     .welcome-div-2 h1 {
     font-size: 2.6rem;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .welcome-div-2 h1 {
+    font-size: 2.2rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 1.2rem;
+}
+}
+
+@media only screen and (max-width: 420px) {
+    .welcome-div-2 h1 {
+    font-size: 1.8rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 380px) {
+    .welcome-div-2 h1 {
+    font-size: 1.6rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 0.8rem;
 }
 }
 
