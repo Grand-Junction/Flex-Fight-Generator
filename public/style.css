@@ -52,81 +52,6 @@ body {
     background-color: rgb(206, 205, 205);
 }
 
-/* WELCOME COMPONENT BREAKPOINTS */
-
-@media only screen and (max-width: 1220px) {
-    .welcome-div-2 h1 {
-    font-size: 5rem;
-}
-
-.welcome-div-2 h2 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-}
-}
-
-@media only screen and (max-width: 880px) {
-    .welcome-div-2 h1 {
-    font-size: 4rem;
-}
-}
-
-@media only screen and (max-width: 718px) {
-    .welcome-div-2 h1 {
-    font-size: 3.3rem;
-}
-
-.welcome-div-2 h2 {
-    font-size: 1.3rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-}
-}
-
-@media only screen and (max-width: 580px) {
-    .welcome-div-2 h1 {
-    font-size: 2.6rem;
-}
-}
-
-@media only screen and (max-width: 480px) {
-    .welcome-div-2 h1 {
-    font-size: 2.2rem;
-}
-
-.welcome-div-2 h2 {
-    font-size: 1.2rem;
-}
-}
-
-@media only screen and (max-width: 420px) {
-    .welcome-div-2 h1 {
-    font-size: 1.8rem;
-}
-
-.welcome-div-2 h2 {
-    font-size: 1rem;
-}
-}
-
-@media only screen and (max-width: 380px) {
-    .welcome-div-2 h1 {
-    font-size: 1.6rem;
-}
-
-.welcome-div-2 h2 {
-    font-size: 0.8rem;
-}
-}
-
-/* HOMEPAGE COMPONENT STYLING */
-
-#homepage-parent-div {
-    position: absolute;
-    width: 100%;
-}
-
 /* HEADER COMPONENT STYLING */
 
 #header-parent {
@@ -151,6 +76,13 @@ body {
 
 #header-btn {
     margin-right: 1.1rem;
+}
+
+/* HOMEPAGE COMPONENT STYLING */
+
+#homepage-parent-div {
+    position: absolute;
+    width: 100%;
 }
 
 /* MAIN COMPONENT STYLING */
@@ -257,3 +189,99 @@ body {
     font-weight: 600;
     padding: 1rem;
 }
+
+/* COMPONENT BREAKPOINTS */
+
+@media only screen and (max-width: 1220px) {
+    .welcome-div-2 h1 {
+    font-size: 5rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+}
+
+@media only screen and (max-width: 880px) {
+    .welcome-div-2 h1 {
+    font-size: 4rem;
+}
+}
+
+@media only screen and (max-width: 718px) {
+    .welcome-div-2 h1 {
+    font-size: 3.3rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+}
+
+@media only screen and (max-width: 653px) {
+#random-opp-h2 {
+    font-size: 2.1rem;
+}
+
+}
+
+@media only screen and (max-width: 584px) {
+    .welcome-div-2 h1 {
+    font-size: 2.6rem;
+}
+
+#random-opp-h2 {
+    font-size: 1.8rem;
+}
+}
+
+@media only screen and (max-width: 535px) {
+
+#random-opp-h2 {
+    font-size: 1.6rem;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+    .welcome-div-2 h1 {
+    font-size: 2.2rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 1.2rem;
+}
+
+#random-opp-h2 {
+    font-size: 1.3rem;
+}
+}
+
+@media only screen and (max-width: 420px) {
+    .welcome-div-2 h1 {
+    font-size: 1.8rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 1rem;
+}
+
+#random-opp-h2 {
+    font-size: 1.1rem;
+}
+}
+
+@media only screen and (max-width: 380px) {
+    .welcome-div-2 h1 {
+    font-size: 1.6rem;
+}
+
+.welcome-div-2 h2 {
+    font-size: 0.8rem;
+}
+}
+
