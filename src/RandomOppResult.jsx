@@ -7,7 +7,7 @@ function RandomOppResult() {
 
     function randomRendered() {
 
-        const randomFighter = Math.floor(Math.random() * Fighters.length) + 1;
+        const randomFighter = Math.floor(Math.random() * Fighters.length);
         const randomFighterID = Fighters[randomFighter].id;
         const randomFighterName = Fighters[randomFighter].fighter;
         const randomFighterMain = Fighters[randomFighter].main;
@@ -26,7 +26,6 @@ function RandomOppResult() {
             <div className="fight-card">
                 {randomRendered()}
                  <div className="results-btn">
-                    {/* <span><Button btnText="NEW RANDOM OPPONENT"/></span> */}
                     <Link to='/homepage'><Button btnText="RETURN TO FIGHT PAGE"/></Link>
                 </div>
             </div>
