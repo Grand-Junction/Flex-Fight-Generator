@@ -193,8 +193,32 @@ body {
 
 /* BREAKPOINTS */
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (width <= 1440px) {
 
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 6.5rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.5rem;
+    }
+
+    .random-selected-fighter {
+    font-size: 2.5rem;
+    }
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+    font-weight: 300;
+    font-size: 1.2rem;
+    }
+}
+
+@media only screen and (width <= 1367px) {
+    
     #welcome-div {
     max-height: 100vh;
     }
@@ -217,7 +241,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1367px) {
+@media only screen and (width <= 1060px) {
     
     #welcome-div {
     max-height: 100vh;
@@ -241,7 +265,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (width <= 960px) {
     
     #welcome-div {
     max-height: 100vh;
@@ -249,30 +273,6 @@ body {
     
     .welcome-div-2 h1 {
     font-size: 5rem;
-    }
-
-    .welcome-div-2 h2 {
-    font-size: 1.3rem;
-    }
-
-    .random-selected-fighter {
-    font-size: 2.5rem;
-    }
-
-    .rendered-fighter-random h3[id='bossTxt'] {
-    font-weight: 300;
-    font-size: 1.2rem;
-    }
-}
-
-@media only screen and (max-width: 769px) {
-    
-    #welcome-div {
-    max-height: 100vh;
-    }
-    
-    .welcome-div-2 h1 {
-    font-size: 4rem;
     }
 
     .welcome-div-2 h2 {
@@ -289,3 +289,161 @@ body {
     }
 }
 
+@media only screen and (width <= 960px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 4.5rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.5rem;
+    }
+
+    .random-selected-fighter {
+    font-size: 2.5rem;
+    }
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+    font-weight: 300;
+    font-size: 1.2rem;
+    }
+}
+
+@media only screen and (width <= 785px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 4rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.3rem;
+    }
+
+    .random-selected-fighter {
+    font-size: 2.5rem;
+    }
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+    font-weight: 300;
+    font-size: 1.2rem;
+    }
+}
+
+@media only screen and (width <= 695px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 3.5rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (width <= 625px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 3.2rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (width <= 565px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 2.9rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (width <= 510px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 2.6rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (width <= 460px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 2.2rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.1rem;
+    }
+
+}
+
+@media only screen and (width <= 395px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 2rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.1rem;
+    }
+}
+
+@media only screen and (width <= 355px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 1.7rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1rem;
+    }
+
+}
