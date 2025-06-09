@@ -193,7 +193,55 @@ body {
 
 /* BREAKPOINTS */
 
-@media only screen and (max-width: 1366px) and (min-height: 768px) {
+@media only screen and (max-width: 1440px) {
+
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 6rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.5rem;
+    }
+
+    .random-selected-fighter {
+    font-size: 2.5rem;
+    }
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+    font-weight: 300;
+    font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1367px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 5.5rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.3rem;
+    }
+
+    .random-selected-fighter {
+    font-size: 2.5rem;
+    }
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+    font-weight: 300;
+    font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
     
     #welcome-div {
     max-height: 100vh;
@@ -201,19 +249,43 @@ body {
     
     .welcome-div-2 h1 {
     font-size: 5rem;
-}
+    }
 
     .welcome-div-2 h2 {
     font-size: 1.3rem;
-}
+    }
 
     .random-selected-fighter {
     font-size: 2.5rem;
-}
+    }
 
     .rendered-fighter-random h3[id='bossTxt'] {
     font-weight: 300;
     font-size: 1.2rem;
+    }
 }
+
+@media only screen and (max-width: 769px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 4rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 1.5rem;
+    }
+
+    .random-selected-fighter {
+    font-size: 2.5rem;
+    }
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+    font-weight: 300;
+    font-size: 1.2rem;
+    }
 }
 
