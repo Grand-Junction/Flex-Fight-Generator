@@ -448,3 +448,19 @@ body {
     }
 
 }
+
+@media only screen and (width <= 325px) {
+    
+    #welcome-div {
+    max-height: 100vh;
+    }
+    
+    .welcome-div-2 h1 {
+    font-size: 1.5rem;
+    }
+
+    .welcome-div-2 h2 {
+    font-size: 0.8rem;
+    }
+
+}
