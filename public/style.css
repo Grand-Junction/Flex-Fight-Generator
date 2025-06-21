@@ -197,11 +197,11 @@ body {
 @media only screen and (width < 321px) {
 
     .welcome-div-2 h1 {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
 }
 
     .welcome-div-2 h2 {
-        font-size: 0.5rem;
+        font-size: 0.3rem;
 }
 
     #random-opp-h2 {
