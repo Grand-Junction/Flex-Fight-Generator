@@ -6,14 +6,18 @@ import RandomOppResult from "./RandomOppResult";
 function FightCard() {
 
     return (
-        <div id="fight-main-div">
-            <div className="fight-card">
-                <RandomOppDefault />
+        <>
+            <div id="fight-main-div">
+                <div className="fight-card">
+                    <RandomOppDefault />
+                </div>
             </div>
-            {/* <div className="fight-card">
-                <SelectNationDefault />
+            {/* <div id="fight-main-div">
+                <div className="fight-card">
+                    <SelectNationDefault />
+                </div>
             </div> */}
-        </div>
+        </>
     );
 }
 
