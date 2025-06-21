@@ -12,7 +12,7 @@ body {
 
 #welcome-div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     grid-template-rows: repeat(12, 1fr);
     gap: 3px;
     max-height: 100vh;
@@ -194,10 +194,10 @@ body {
 
 /* MOBILE BREAKPOINTS */
 
-@media only screen and (width < 321px) and (orientation: portrait) {
+@media only screen and (width < 321px) {
 
     #welcome-div {
-    max-width: 100vh;
+    max-width: 100vw;
 }
 
     .welcome-div-2 h1 {
@@ -237,10 +237,10 @@ body {
 }
 }
 
-@media only screen and (width >= 321px) and (width <= 376px) and (orientation: portrait){
+@media only screen and (width >= 321px) and (width <= 376px) {
 
     #welcome-div {
-        max-width: 100vh;
+        max-width: 100vw;
 }
 
     .welcome-div-2 h1 {
@@ -283,7 +283,7 @@ body {
 @media only screen and (width >= 377px) and (width <= 426px) {
 
     #welcome-div {
-        max-width: 100vh;
+        max-width: 100vw;
 }
 
     .welcome-div-2 h1 {
@@ -326,7 +326,7 @@ body {
 @media only screen and (width >= 426px) and (width <= 447px) {
 
     #welcome-div {
-        max-width: 100vh;
+        max-width: 100vw;
 }
 
     .welcome-div-2 h1 {
@@ -369,7 +369,7 @@ body {
 @media only screen and (width >= 447px) and (width <= 515px) {
 
     #welcome-div {
-        max-width: 100vh;
+        max-width: 100vw;
 }
 
     .welcome-div-2 h1 {
@@ -412,7 +412,7 @@ body {
 @media only screen and (width >= 515px) and (width <= 600px) {
 
     #welcome-div {
-        max-width: 100vh;
+        max-width: 100vw;
 }
 
     .welcome-div-2 h1 {
