@@ -194,7 +194,7 @@ body {
 
 /* MOBILE BREAKPOINTS */
 
-@media only screen and (width < 321px) {
+@media only screen and (width < 321px) and (orientation: portrait) {
 
     #welcome-div {
     max-width: 100vh;
@@ -237,7 +237,7 @@ body {
 }
 }
 
-@media only screen and (width >= 321px) and (width <= 376px) {
+@media only screen and (width >= 321px) and (width <= 376px) and (orientation: portrait){
 
     #welcome-div {
         max-width: 100vh;
