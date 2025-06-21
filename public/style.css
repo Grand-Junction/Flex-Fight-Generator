@@ -194,18 +194,18 @@ body {
 
 /* MOBILE BREAKPOINTS */
 
-@media only screen and (width <= 320px) {
+@media only screen and (width < 321px) {
 
     #welcome-div {
     max-width: 100vh;
 }
 
     .welcome-div-2 h1 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
 }
 
     .welcome-div-2 h2 {
-        font-size: 1rem;
+        font-size: 0.7rem;
 }
 
     #random-opp-h2 {
