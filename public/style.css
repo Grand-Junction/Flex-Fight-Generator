@@ -192,7 +192,7 @@ body {
     padding: 1rem;
 }
 
-/* BREAKPOINTS */
+/* MOBILE BREAKPOINTS */
 
 @media only screen and (width <= 320px) {
 
@@ -249,6 +249,178 @@ body {
 
     .welcome-div-2 h2 {
         font-size: 1.1rem;
+}
+
+    #random-opp-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    #random-result-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    .random-selected-fighter {
+        font-size: 2.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3 {
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='difficulty'] {
+        margin-top: 1.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+        text-align: center;
+}
+}
+
+@media only screen and (width >= 377px) and (width <= 426px) {
+
+    #welcome-div {
+        max-width: 100vh;
+}
+
+    .welcome-div-2 h1 {
+        font-size: 2.1rem;
+}
+
+    .welcome-div-2 h2 {
+        font-size: 1.2rem;
+}
+
+    #random-opp-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    #random-result-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    .random-selected-fighter {
+        font-size: 2.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3 {
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='difficulty'] {
+        margin-top: 1.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+        text-align: center;
+}
+}
+
+@media only screen and (width >= 426px) and (width <= 447px) {
+
+    #welcome-div {
+        max-width: 100vh;
+}
+
+    .welcome-div-2 h1 {
+        font-size: 2.4rem;
+}
+
+    .welcome-div-2 h2 {
+        font-size: 1.3rem;
+}
+
+    #random-opp-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    #random-result-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    .random-selected-fighter {
+        font-size: 2.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3 {
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='difficulty'] {
+        margin-top: 1.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+        text-align: center;
+}
+}
+
+@media only screen and (width >= 447px) and (width <= 515px) {
+
+    #welcome-div {
+        max-width: 100vh;
+}
+
+    .welcome-div-2 h1 {
+        font-size: 2.5rem;
+}
+
+    .welcome-div-2 h2 {
+        font-size: 1.4rem;
+}
+
+    #random-opp-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    #random-result-h2 {
+        font-size: 2rem;
+        text-align: center;
+}
+
+    .random-selected-fighter {
+        font-size: 2.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3 {
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='difficulty'] {
+        margin-top: 1.5rem;
+        text-align: center;
+}
+
+    .rendered-fighter-random h3[id='bossTxt'] {
+        text-align: center;
+}
+}
+
+@media only screen and (width >= 515px) and (width <= 600px) {
+
+    #welcome-div {
+        max-width: 100vh;
+}
+
+    .welcome-div-2 h1 {
+        font-size: 2.8rem;
+}
+
+    .welcome-div-2 h2 {
+        font-size: 1.4rem;
 }
 
     #random-opp-h2 {
