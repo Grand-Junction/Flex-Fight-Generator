@@ -274,10 +274,6 @@ body {
 
 @media only screen and (width >= 377px) and (width <= 426px) {
 
-    /* #welcome-div {
-        max-width: 100vw;
-} */
-
     .welcome-div-2 h1 {
         font-size: 2.6rem;
 }
