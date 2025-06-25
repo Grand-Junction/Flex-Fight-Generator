@@ -284,9 +284,13 @@ body {
     .rendered-fighter-random h3[id='bossTxt'] {
         text-align: center;
 }
+
+    #error-div > h1 {
+        font-size: 2.2rem;
+}
 }
 
-@media only screen and (width >= 377px) and (width <= 426px) {
+@media only screen and (width >= 377px) and (width < 426px) {
 
     .welcome-div-2 h1 {
         font-size: 2.6rem;
@@ -323,9 +327,13 @@ body {
     .rendered-fighter-random h3[id='bossTxt'] {
         text-align: center;
 }
+
+    #error-div > h1 {
+        font-size: 2.4rem;
+}
 }
 
-@media only screen and (width >= 426px) and (width <= 447px) {
+@media only screen and (width >= 426px) and (width < 447px) {
 
     .welcome-div-2 h1 {
         font-size: 3.3rem;
@@ -362,9 +370,13 @@ body {
     .rendered-fighter-random h3[id='bossTxt'] {
         text-align: center;
 }
+
+    #error-div > h1 {
+        font-size: 2.6rem;
+}
 }
 
-@media only screen and (width >= 447px) and (width <= 515px) {
+@media only screen and (width >= 447px) and (width < 515px) {
 
     .welcome-div-2 h1 {
         font-size: 3.7rem;
@@ -401,9 +413,13 @@ body {
     .rendered-fighter-random h3[id='bossTxt'] {
         text-align: center;
 }
+
+    #error-div > h1 {
+        font-size: 2.8rem;
+}
 }
 
-@media only screen and (width >= 515px) and (width <= 600px) {
+@media only screen and (width >= 515px) and (width < 600px) {
 
     .welcome-div-2 h1 {
         font-size: 4.1rem;
@@ -440,11 +456,15 @@ body {
     .rendered-fighter-random h3[id='bossTxt'] {
         text-align: center;
 }
+
+    #error-div > h1 {
+        font-size: 3.3rem;
+}
 }
 
 /* TABLET & LAPTOP BREAKPOINTS */
 
-@media only screen and (width >= 601px) and (width <= 768px) {
+@media only screen and (width >= 600px) and (width < 768px) {
 
     .welcome-div-2 h1 {
         font-size: 4.6rem;
@@ -481,9 +501,13 @@ body {
     .rendered-fighter-random h3[id='bossTxt'] {
         text-align: center;
 }
+
+    #error-div > h1 {
+        font-size: 3.9rem;
+}
 }
 
-@media only screen and (width >= 769px) and (width <= 992px) {
+@media only screen and (width >= 768px) and (width < 992px) {
 
     .welcome-div-2 h1 {
         font-size: 6rem;
@@ -519,6 +543,16 @@ body {
 
     .rendered-fighter-random h3[id='bossTxt'] {
         text-align: center;
+}
+
+    #error-div > h1 {
+        font-size: 4.5rem;
+}
+}
+
+@media only screen and (width >= 992px) {
+        #error-div > h1 {
+        font-size: 4.5rem;
 }
 }
 
