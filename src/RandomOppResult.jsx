@@ -25,7 +25,7 @@ function RandomOppResult() {
         <div id="fight-main-div">
             <div className="fight-card">
                 {randomRendered()}
-                 <div className="results-btn">
+                <div className="results-btn">
                     <Link to='/homepage'><Button btnText="RETURN TO FIGHT PAGE"/></Link>
                 </div>
             </div>

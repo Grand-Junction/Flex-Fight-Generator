@@ -139,7 +139,6 @@ body {
     display: flex;
     justify-content: center;
     padding: 0.5rem;
-    border: 0.5px solid rgb(206, 205, 205);  
 }
 
 .results-btn * {
@@ -165,6 +164,21 @@ body {
 .rendered-fighter-random h3[id='bossTxt'] {
     font-weight: 300;
     font-size: 1.3rem;
+}
+
+/* ERROR PAGE */
+
+#error-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#error-div > h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
 
 /* FOOTER COMPONENT STYLING */
