@@ -30,7 +30,7 @@ body {
 
 .welcome-div-2 {
     grid-column: span 3;
-    grid-row: 9 / span 3;
+    grid-row: 8 / span 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
