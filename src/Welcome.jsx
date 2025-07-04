@@ -10,9 +10,9 @@ function Welcome() {
                 Dear Days <br />
                 Battleground
             </h1>
-            <h2>Stand up, Vanguard!</h2>
+            {/* <h2>Stand up, Vanguard!</h2> */}
             <div className="results-btn">
-                <Link to="/homepage"><Button btnText="ENTER HERE" /></Link>
+                <Link to="/homepage"><Button btnText="STAND UP, VANGUARD!" /></Link>
             </div>
         </div>
     </div>
