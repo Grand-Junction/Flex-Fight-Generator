@@ -8,12 +8,11 @@
 body {
     margin: 0;
     background: 
-    linear-gradient(to right, 
-    rgba(93, 68, 178, 0.7), 
-    rgba(181, 130, 221, 0.6), 
-    rgba(242, 177, 228, 0.4), 
-    rgba(181, 130, 221, 0.6), 
-    rgba(93, 68, 178, 0.7)), 
+    radial-gradient(
+    rgba(232, 188, 185, 0),
+    rgba(174, 68, 90, 0.35),
+    rgba(75, 67, 118, 0.9)
+    ), 
     url('../src/assets/main-background-img.webp') no-repeat fixed center;
     background-size: cover;
 }

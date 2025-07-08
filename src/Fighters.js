@@ -1,6 +1,6 @@
 const Fighters = [
 
-{
+  {
     id: 1,
     fighter: 'Yuki Ichidoji',
     nation: 'Keter Sanctuary',
