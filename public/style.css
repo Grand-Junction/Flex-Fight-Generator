@@ -2,16 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgb(38, 28, 70);
+  color: rgba(40, 15, 71, 0.8);
 }
 
 body {
     margin: 0;
     background: 
     radial-gradient(
-    rgba(232, 188, 185, 0),
-    rgba(174, 68, 90, 0.35),
-    rgba(75, 67, 118, 0.9)
+    rgba(232, 188, 185, 0), /* PRIMARY COLOR */
+    rgba(174, 68, 90, 0.35), /* SECONDARY COLOR */
+    rgba(75, 67, 118, 0.9) /* TERTIARY COLOR */
     ), 
     url('../src/assets/main-background-img.webp') no-repeat fixed center;
     background-size: cover;
@@ -35,7 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(181, 130, 221, 0.5);
+    background-color: rgba(132, 92, 132, 0.9);
 }
 
 .welcome-div-2 h1 {
@@ -62,11 +62,11 @@ body {
     font-size: 12px;
     font-weight: 550;
     border: 1px solid rgba(162, 162, 162, 0.5);
-    background-color: rgba(119, 67, 158, 0.7);
+    background-color: rgba(173, 137, 173, 0.7);
 }
 
 .btn-component:hover {
-    background-color: rgba(119, 67, 158, 0.8);
+    background-color: rgba(199, 171, 199, 0.8);
 }
 
 /* HEADER COMPONENT STYLING */
@@ -80,7 +80,7 @@ body {
     align-items: center;
     width: 100%;
     padding: 0.2rem;
-    background-color: rgba(181, 130, 221, 0.8);
+    background-color: rgba(132, 92, 132, 0.9);
 }
 
 .header-child {
@@ -106,13 +106,12 @@ body {
 /* MAIN COMPONENT STYLING */
 
 #main-card-div {
-    background: 
-    linear-gradient(to right, 
-    rgba(93, 68, 178, 0.7), 
-    rgba(181, 130, 221, 0.6), 
-    rgba(242, 177, 228, 0.4), 
-    rgba(181, 130, 221, 0.6), 
-    rgba(93, 68, 178, 0.7));
+    background:  
+    radial-gradient(
+    rgba(232, 188, 185, 0), /* PRIMARY COLOR */
+    rgba(174, 68, 90, 0.35), /* SECONDARY COLOR */
+    rgba(75, 67, 118, 0.9) /* TERTIARY COLOR */
+    );
     position: relative;
     width: 100%;
     min-height: 86.5vh;
@@ -138,7 +137,7 @@ body {
     border-radius: 5px;
     min-height: 70vh;
     padding: 2rem;
-    background-color: rgba(181, 130, 221, 0.6);
+    background-color: rgba(132, 92, 132, 0.9);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -215,11 +214,7 @@ body {
     align-items: center;
     width: 100%;
     padding: 1rem;
-    background-color: rgba(181, 130, 221, 0.8);
-}
-
-.footer-parent  * {
-     background-color: rgba(206, 205, 205, 0);
+    background-color: rgba(132, 92, 132, 0.9);
 }
 
 .footer-child {
