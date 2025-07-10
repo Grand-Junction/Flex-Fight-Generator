@@ -6,8 +6,8 @@ import RenderedFighterRandom from "./RenderedFighterRandom";
 function RandomOppResult() {
 
     function randomRendered() {
-
-        const randomFighter = Math.floor(Math.random() * Fighters.length + 1);
+        
+        const randomFighter = Math.floor(Math.random() * Fighters.length);
         const randomFighterID = Fighters[randomFighter].id;
         const randomFighterName = Fighters[randomFighter].fighter;
         const randomFighterMain = Fighters[randomFighter].main;
