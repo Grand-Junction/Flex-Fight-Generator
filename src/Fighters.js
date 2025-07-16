@@ -210,7 +210,7 @@ const Fighters = [
   {
     id: 29,
     fighter: "Roh Nijo",
-    card: "../assets/card-img/shiranui",
+    card: "../assets/card-img/shiranui.png",
     nation: "Dragon Empire",
     main: 'Demon Stealth Dragon, Shiranui "Oboro"',
     level: ["Very Hard"],
