@@ -178,12 +178,13 @@ body {
   margin-bottom: 1rem;
 }
 
-.fighter-img-bg {
+.fighter-img-bg,
+.img-default {
   height: 100%;
   width: 100%;
   margin-bottom: 0.8rem;
   padding: 0.25rem;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* ERROR PAGE */
