@@ -30,8 +30,8 @@ function RandomOppResult() {
     <div id="fight-main-div">
       <div className="fight-card">
         {randomRendered()}
-        <div onClick="" className="results-btn">
-          <Link to="/random" onClick={() => window.location.reload()}>
+        <div className="results-btn">
+          <Link to="/random">
             <Button btnText="NEW RANDOM OPPONENT" />
           </Link>
           <Link to="/homepage">
