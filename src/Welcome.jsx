@@ -10,7 +10,7 @@ function Welcome() {
                 Dear Days <br />
                 Battleground
             </h1>
-            <div className="results-btn">
+            <div className="results-btn" id="welcome-page-btn">
                 <Link to="/homepage"><Button btnText="STAND UP, VANGUARD!" /></Link>
             </div>
         </div>

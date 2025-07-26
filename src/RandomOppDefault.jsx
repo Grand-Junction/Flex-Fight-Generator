@@ -11,7 +11,6 @@ function RandomOppDefault() {
         alt="generic vanguard card"
         className="img-default"
       />
-      {/* <h2 id="random-opp-h2">READY TO FIGHT!</h2> */}
       <div className="results-btn">
         <Link to="/random">
           <Button btnText="RANDOM OPPONENT" />

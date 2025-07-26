@@ -31,6 +31,9 @@ function RandomOppResult() {
       <div className="fight-card">
         {randomRendered()}
         <div onClick="" className="results-btn">
+          <Link to="/random" onClick={() => window.location.reload()}>
+            <Button btnText="NEW RANDOM OPPONENT" />
+          </Link>
           <Link to="/homepage">
             <Button btnText="RETURN TO FIGHT PAGE" />
           </Link>
