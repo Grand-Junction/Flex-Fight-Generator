@@ -184,7 +184,6 @@ body {
   width: 100%;
   margin-bottom: 0.8rem;
   padding: 0.25rem;
-  /* opacity: 0.8; */
 }
 
 /* ERROR PAGE */
@@ -230,36 +229,33 @@ body {
     font-size: 1.3rem;
   }
 
-  .welcome-div-2 h2 {
-    font-size: 1rem;
-  }
-
   .random-selected-fighter {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
   }
 
   .rendered-fighter-random h3 {
-    text-align: center;
-  }
-
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .rendered-fighter-random h3[id="bossTxt"] {
+    font-size: 1.2rem;
     text-align: center;
+  }
+
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 410px;
+    max-width: 256px;
   }
 }
 
 @media only screen and (width >= 321px) and (width < 377px) {
   .welcome-div-2 h1 {
     font-size: 2.2rem;
-  }
-
-  .welcome-div-2 h2 {
-    font-size: 1.2rem;
   }
 
   .random-selected-fighter {
@@ -272,14 +268,17 @@ body {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
+  .rendered-fighter-random h3[id="bossTxt"] {
+    font-size: 1.2rem;
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="bossTxt"] {
-    font-size: 1.1rem;
-    text-align: center;
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 440px;
+    max-width: 286px;
   }
 
   #error-div > h1 {
@@ -292,10 +291,6 @@ body {
     font-size: 2.6rem;
   }
 
-  .welcome-div-2 h2 {
-    font-size: 1.2rem;
-  }
-
   .random-selected-fighter {
     font-size: 2.5rem;
     text-align: center;
@@ -305,13 +300,16 @@ body {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
+  .rendered-fighter-random h3[id="bossTxt"] {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="bossTxt"] {
-    text-align: center;
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 460px;
+    max-width: 306px;
   }
 
   #error-div > h1 {
@@ -324,10 +322,6 @@ body {
     font-size: 3.3rem;
   }
 
-  .welcome-div-2 h2 {
-    font-size: 1.6rem;
-  }
-
   .random-selected-fighter {
     font-size: 2.5rem;
     text-align: center;
@@ -337,13 +331,16 @@ body {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
+  .rendered-fighter-random h3[id="bossTxt"] {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="bossTxt"] {
-    text-align: center;
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 480px;
+    max-width: 326px;
   }
 
   #error-div > h1 {
@@ -356,10 +353,6 @@ body {
     font-size: 3.7rem;
   }
 
-  .welcome-div-2 h2 {
-    font-size: 1.8rem;
-  }
-
   .random-selected-fighter {
     font-size: 2.5rem;
     text-align: center;
@@ -369,13 +362,16 @@ body {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
+  .rendered-fighter-random h3[id="bossTxt"] {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="bossTxt"] {
-    text-align: center;
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 480px;
+    max-width: 326px;
   }
 
   #error-div > h1 {
@@ -388,10 +384,6 @@ body {
     font-size: 4.1rem;
   }
 
-  .welcome-div-2 h2 {
-    font-size: 1.8rem;
-  }
-
   #random-opp-h2 {
     font-size: 2rem;
     text-align: center;
@@ -401,13 +393,16 @@ body {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
+  .rendered-fighter-random h3[id="bossTxt"] {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="bossTxt"] {
-    text-align: center;
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 480px;
+    max-width: 326px;
   }
 
   #error-div > h1 {
