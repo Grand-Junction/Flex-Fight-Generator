@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import Button from "./Button";
 import Fighters from "./Fighters";
 import RenderedFighterRandom from "./RenderedFighterRandom";
 
 function RandomOppResult() {
+  const [refreshPage, setRefreshPage] = useState(true);
+
   function randomRendered() {
     const randomFighter = Math.floor(Math.random() * Fighters.length);
     const randomFighterID = Fighters[randomFighter].id;
@@ -26,14 +29,20 @@ function RandomOppResult() {
     );
   }
 
+  const pageRefresh = () => {
+    setRefreshPage(!refreshPage);
+    console.log("page refresh");
+    return randomRendered();
+  };
+
   return (
     <div id="fight-main-div">
       <div className="fight-card">
-        {randomRendered()}
+        {refreshPage === true ? randomRendered() : pageRefresh()}
         <div className="results-btn">
-          <Link to="/random">
+          <div onClick={pageRefresh}>
             <Button btnText="NEW RANDOM OPPONENT" />
-          </Link>
+          </div>
           <Link to="/homepage">
             <Button btnText="RETURN TO FIGHT PAGE" />
           </Link>
