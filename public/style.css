@@ -417,10 +417,6 @@ body {
     font-size: 4.6rem;
   }
 
-  .welcome-div-2 h2 {
-    font-size: 1.8rem;
-  }
-
   .random-selected-fighter {
     font-size: 2.5rem;
     text-align: center;
@@ -430,13 +426,16 @@ body {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
+  .rendered-fighter-random h3[id="bossTxt"] {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="bossTxt"] {
-    text-align: center;
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 346px;
   }
 
   #error-div > h1 {
@@ -449,10 +448,6 @@ body {
     font-size: 6rem;
   }
 
-  .welcome-div-2 h2 {
-    font-size: 1.8rem;
-  }
-
   .random-selected-fighter {
     font-size: 2.5rem;
     text-align: center;
@@ -462,9 +457,12 @@ body {
     text-align: center;
   }
 
-  .rendered-fighter-random h3[id="difficulty"] {
-    margin-top: 1.5rem;
-    text-align: center;
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 520px;
+    max-width: 366px;
   }
 
   .rendered-fighter-random h3[id="bossTxt"] {
@@ -477,6 +475,14 @@ body {
 }
 
 @media only screen and (width >= 991px) {
+  .fighter-img-bg,
+  .img-default {
+    height: auto;
+    width: auto;
+    max-height: 540px;
+    max-width: 386px;
+  }
+
   #error-div > h1 {
     font-size: 4.5rem;
   }
