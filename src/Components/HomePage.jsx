@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import MainCardDefault from './MainCardDefault';
+import MainCardDefault from '../Main Card/MainCardDefault.jsx';
 
 function HomePage() {
 

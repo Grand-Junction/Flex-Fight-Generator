@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Button from "./Button";
-import Fighters from "./Fighters";
-import RenderedFighterRandom from "./RenderedFighterRandom";
+import Button from "../Components/Button";
+import Fighters from "../Fighters";
+import RenderedFighterRandom from "../Components/RenderedFighterRandom";
 
 function RandomOppResult() {
   const [refreshPage, setRefreshPage] = useState(true);
@@ -31,7 +31,6 @@ function RandomOppResult() {
 
   const pageRefresh = () => {
     setRefreshPage(!refreshPage);
-    console.log("page refresh");
     return randomRendered();
   };
 

@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import MainCardSelectNation from "./MainCardSelectNation";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import MainCardSelectNation from "../Main Card/MainCardSelectNation";
 
 function SelectNationPage() {
 
