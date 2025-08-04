@@ -3,7 +3,7 @@ import Button from "../Components/Button.jsx";
 
 // DEFAULT RANDOM OPPONENT CARD
 
-function RandomOppDefault() {
+const RandomOppDefault = () => {
   return (
     <>
       <img
@@ -18,6 +18,6 @@ function RandomOppDefault() {
       </div>
     </>
   );
-}
+};
 
 export default RandomOppDefault;
