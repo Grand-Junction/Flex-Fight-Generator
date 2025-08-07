@@ -5,30 +5,28 @@ import RandomOppPage from "../Random Opponent/RandomOppPage.jsx";
 import SelectNationPage from "../Select Nation/SelectNationPage.jsx";
 import Error from "./Error.jsx";
 
-function App() {
-  return (
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path="/">
-            <Welcome />
-          </Route>
-          <Route path="/homepage">
-            <HomePage />
-          </Route>
-          <Route path="/random">
-            <RandomOppPage />
-          </Route>
-          <Route path="/select">
-            <SelectNationPage />
-          </Route>
-          <Route path="*">
-            <Error />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-  );
-}
+const App = () => (
+  <Router>
+    <div>
+      <Switch>
+        <Route exact path="/">
+          <Welcome />
+        </Route>
+        <Route path="/homepage">
+          <HomePage />
+        </Route>
+        <Route path="/random">
+          <RandomOppPage />
+        </Route>
+        <Route path="/select">
+          <SelectNationPage />
+        </Route>
+        <Route path="*">
+          <Error />
+        </Route>
+      </Switch>
+    </div>
+  </Router>
+);
 
 export default App;
