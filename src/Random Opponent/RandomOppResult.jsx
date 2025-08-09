@@ -4,11 +4,15 @@ import Button from "../Components/Button";
 import Fighters from "../Fighters";
 import RenderedFighterRandom from "../Components/RenderedFighterRandom";
 
+// No implicit return here as we're expliciting running code & returning an output of the component itself.
+
 const RandomOppResult = () => {
   const [refreshPage, setRefreshPage] = useState(true);
 
   const randomRendered = () => {
     const randomFighter = Math.floor(Math.random() * Fighters.length);
+
+    // I try and I try, but I can't manage to deconstruct my Fighters array & utilize my RNG variable at the same time, so doing it this way for now until I figure it out.
 
     const randomFighterID = Fighters[randomFighter].id;
     const randomFighterCard = Fighters[randomFighter].card;

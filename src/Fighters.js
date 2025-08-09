@@ -335,6 +335,10 @@ const Fighters = [
     main: "Destined One of Time, Liael=Odium",
     level: ["Very Hard"],
   },
+  function randomNumber() {
+    const randomRoll = Math.floor(Math.random() * Fighters.length);
+    return randomRoll;
+  },
 ];
 
 export default Fighters;
