@@ -66,7 +66,7 @@ body {
 }
 
 .btn-component:hover {
-  background-color: rgba(199, 171, 199, 0.8);
+  background-color: rgba(108, 157, 172, 0.8);
 }
 
 /* HEADER COMPONENT STYLING */
@@ -80,7 +80,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 0.2rem;
-  background-color: rgba(132, 92, 132, 0.9);
+  background-color: rgba(48, 75, 138, 0.8);
 }
 
 .header-child {
@@ -106,10 +106,11 @@ body {
 /* MAIN COMPONENT STYLING */
 
 #main-card-div {
-  background: radial-gradient(
-    rgba(232, 188, 185, 0),
-    /* PRIMARY COLOR */ rgba(174, 68, 90, 0.35),
-    /* SECONDARY COLOR */ rgba(75, 67, 118, 0.9) /* TERTIARY COLOR */
+  background: linear-gradient(
+    to right,
+    rgba(72, 55, 166, 0.4),
+    rgba(48, 75, 138, 0.4),
+    rgba(108, 157, 172, 0.4)
   );
   position: relative;
   width: 100%;
@@ -135,7 +136,7 @@ body {
   border: 0.5px solid rgba(206, 205, 205, 0.5);
   border-radius: 5px;
   min-height: 70vh;
-  background-color: rgba(132, 92, 132, 0.9);
+  background-color: rgba(48, 75, 138, 0.8);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -219,7 +220,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 1rem;
-  background-color: rgba(132, 92, 132, 0.9);
+  background-color: rgba(48, 75, 138, 0.8);
 }
 
 .footer-child {
