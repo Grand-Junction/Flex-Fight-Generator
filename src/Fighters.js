@@ -164,7 +164,7 @@ const Fighters = [
     fighter: "Kana Aoyama",
     card: "../assets/card-img/fortia.png",
     nation: "Lyrical Monasterio",
-    main: "MiMish, Fortia",
+    main: "Full Moon Magic, Fortia",
     level: ["Normal", "Hard", "Very Hard"],
   },
   {
@@ -334,10 +334,6 @@ const Fighters = [
     nation: "Dark States",
     main: "Destined One of Time, Liael=Odium",
     level: ["Very Hard"],
-  },
-  function randomNumber() {
-    const randomRoll = Math.floor(Math.random() * Fighters.length);
-    return randomRoll;
   },
 ];
 
