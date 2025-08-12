@@ -84,7 +84,7 @@ const Fighters = [
     fighter: "Kuro Minato",
     card: "../assets/card-img/hexaorb.png",
     nation: "Keter Sanctuary",
-    main: "Hexaorb Sorceress",
+    main: `Hexaorb Sorceress, "Aquamarine"`,
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
   {
