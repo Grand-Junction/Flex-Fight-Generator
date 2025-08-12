@@ -108,7 +108,7 @@ const Fighters = [
     fighter: "Raika Koshiba",
     card: "../assets/card-img/youthberk.png",
     nation: "Keter Sanctuary",
-    main: `Youthberk "RevolForm: Full Blast"`,
+    main: `Youthberk "Skyfall Arms"`,
     level: ["Hard", "Very Hard"],
   },
   {
