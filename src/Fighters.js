@@ -28,7 +28,7 @@ const Fighters = [
     fighter: "Kanji Meguro",
     card: `../assets/card-img/favrneel.png`,
     nation: "Dark States",
-    main: "Purgatory Dragon Deity, Favrneel",
+    main: "Purgatory Great Dragon Emperor, Favrneel Rheingold",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
   {
@@ -52,7 +52,7 @@ const Fighters = [
     fighter: "Danji Momoyama",
     card: "../assets/card-img/bruce.png",
     nation: "Dark States",
-    main: 'Diabolos, "Viamance" Bruce',
+    main: `Diabolos, "Viamance" Bruce`,
     level: ["Hard", "Very Hard"],
   },
   {
@@ -68,7 +68,7 @@ const Fighters = [
     fighter: "Michiru Hazama",
     card: "../assets/card-img/drajeweled.png",
     nation: "Dark States",
-    main: "Demonic Jewel True Dragon, Drajeweled Ignis",
+    main: "Demonic Jewel Dragon, Drajeweled",
     level: ["Very Hard"],
   },
   {
@@ -108,7 +108,7 @@ const Fighters = [
     fighter: "Raika Koshiba",
     card: "../assets/card-img/youthberk.png",
     nation: "Keter Sanctuary",
-    main: 'Youthberk "RevolForm: Full Blast"',
+    main: `Youthberk "RevolForm: Full Blast"`,
     level: ["Hard", "Very Hard"],
   },
   {
@@ -121,7 +121,7 @@ const Fighters = [
   },
   {
     id: 16,
-    fighter: "Hikari Myodo",
+    fighter: "Hikari Myodo (Future)",
     card: "../assets/card-img/amorta.png",
     nation: "Keter Sanctuary",
     main: "Fated One of Time, Liael=Amorta",
@@ -172,7 +172,7 @@ const Fighters = [
     fighter: "Yui Itabashi",
     card: "../assets/card-img/loronerol.png",
     nation: "Lyrical Monasterio",
-    main: "Heartfelt Song, Loronerol",
+    main: "Sing with Me, Loronerol",
     level: ["Normal", "Hard", "Very Hard"],
   },
   {
@@ -252,7 +252,7 @@ const Fighters = [
     fighter: "Taiji Arakawa",
     card: "../assets/card-img/eva.png",
     nation: "Brandt Gate",
-    main: "Fountain of Knowledge, Eva",
+    main: "Poison in Paradise, Eva",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
   {
@@ -276,7 +276,7 @@ const Fighters = [
     fighter: "Taizo Kiyokura",
     card: "../assets/card-img/welstra.png",
     nation: "Brandt Gate",
-    main: 'Fated One of Guiding Star, Welstra "Blitz Arms"',
+    main: `Fated One of Guiding Star, Welstra "Blitz Arms"`,
     level: ["Hard", "Very Hard"],
   },
   {
@@ -316,12 +316,12 @@ const Fighters = [
     fighter: "Kuon Aikawa",
     card: "../assets/card-img/levidras.png",
     nation: "Stoicheia",
-    main: "Destined One of Infinity, Levidras",
+    main: "Destined King of Infinity, Levidras Empireo",
     level: ["Very Hard"],
   },
   {
     id: 43,
-    fighter: "Sybilt Nao",
+    fighter: "Sybilt-Nao",
     card: "../assets/card-img/rakshasa.png",
     nation: "Dragon Empire",
     main: `Unparalleled Drekasleif, Varga Dragres "Rakshasa"`,
@@ -329,11 +329,19 @@ const Fighters = [
   },
   {
     id: 44,
-    fighter: "Hikari (Young)",
+    fighter: "Hikari Myodo (Young)",
     card: "../assets/card-img/odium.png",
     nation: "Dark States",
     main: "Destined One of Time, Liael=Odium",
     level: ["Very Hard"],
+  },
+  {
+    id: 45,
+    fighter: "Tohya Ebata",
+    card: "../assets/card-img/bastion.png",
+    nation: "Keter Sanctuary",
+    main: "Sword of the Nation, Bastion Accord",
+    level: ["Hard", "Very Hard"],
   },
 ];
 
