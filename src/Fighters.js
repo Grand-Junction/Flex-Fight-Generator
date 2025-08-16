@@ -68,7 +68,7 @@ const Fighters = [
     fighter: "Michiru Hazama",
     card: "../assets/card-img/drajeweled.png",
     nation: "Dark States",
-    main: "Demonic Jewel Dragon, Drajeweled",
+    main: "Demonic Jewel True Dragon, Drajeweled Ignis",
     level: ["Very Hard"],
   },
   {
