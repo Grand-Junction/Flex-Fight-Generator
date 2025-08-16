@@ -181,6 +181,8 @@ body {
   font-weight: 300;
   font-size: 1.3rem;
   margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 #new-random-opp {
@@ -191,6 +193,7 @@ body {
 .img-default {
   height: 100%;
   width: 100%;
+  margin-top: 0.8rem;
   margin-bottom: 0.8rem;
   padding: 0.25rem;
 }
