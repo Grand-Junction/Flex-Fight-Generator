@@ -88,8 +88,9 @@ body {
 .header-child {
   list-style-type: none;
   background-color: rgba(206, 205, 205, 0);
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-family: "Quicksand";
+  font-size: 1.3rem;
+  font-weight: 400;
   padding: 1rem;
 }
 
@@ -180,6 +181,7 @@ body {
 .rendered-fighter-random h3[id="bossTxt"] {
   font-weight: 300;
   font-size: 1.3rem;
+  font-family: "Quicksand";
   margin-bottom: 1rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -230,7 +232,9 @@ body {
 
 .footer-child {
   list-style-type: none;
-  font-weight: 600;
+  font-family: "Quicksand";
+  font-size: 1rem;
+  font-weight: 400;
   padding: 1rem;
 }
 
