@@ -3,12 +3,14 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import MainCardSelectNation from "../Main Card/MainCardSelectNation";
 
-const SelectNationPage = () => (
-  <div id="homepage-parent-div">
-    <Header />
-    <MainCardSelectNation />
-    <Footer />
-  </div>
-);
+const SelectNationPage = () => {
+  return (
+    <div id="homepage-parent-div">
+      <Header />
+      <MainCardSelectNation />
+      <Footer />
+    </div>
+  );
+};
 
 export default SelectNationPage;

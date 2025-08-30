@@ -198,6 +198,17 @@ body {
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
   padding: 0.25rem;
+  border-radius: 8px;
+}
+
+#select-nation-res-h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#select-dropdown {
+  background-color: rgba(48, 75, 138, 0.8);
 }
 
 /* ERROR PAGE */
@@ -287,6 +298,10 @@ body {
   .rendered-fighter-random h3[id="bossTxt"] {
     font-size: 1.2rem;
     text-align: center;
+  }
+
+  #fight-main-div {
+    flex-direction: column;
   }
 
   .fighter-img-bg,

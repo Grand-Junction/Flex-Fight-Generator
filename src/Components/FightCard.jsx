@@ -9,12 +9,10 @@ const FightCard = () => (
       <div className="fight-card">
         <RandomOppDefault />
       </div>
+      <div className="fight-card">
+        <SelectNationDefault />
+      </div>
     </div>
-    {/* <div id="fight-main-div">
-                <div className="fight-card">
-                    <SelectNationDefault />
-                </div>
-            </div> */}
   </>
 );
 

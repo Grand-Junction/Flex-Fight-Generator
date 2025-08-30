@@ -3,9 +3,9 @@ const RenderedFighterRandom = (props) => (
     <img className="fighter-img-bg" src={props.selectedImg} alt="" />
     <h3>Your Opponent For This Fight:</h3>
     <h2 className="random-selected-fighter">{props.selectedFighter}</h2>
-    <em>
+    <i>
       <h3 id="bossTxt">{props.selectedMain}</h3>
-    </em>
+    </i>
   </div>
 );
 

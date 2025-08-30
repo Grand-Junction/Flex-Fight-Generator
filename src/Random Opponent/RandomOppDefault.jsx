@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-import Button from "../Components/Button.jsx";
-
-// DEFAULT RANDOM OPPONENT CARD
+import Button from "../Components/Button";
 
 const RandomOppDefault = () => {
   return (
-    <>
+    <div>
       <img
         src="../assets/vg-card.png"
         alt="generic vanguard card"
@@ -16,7 +14,7 @@ const RandomOppDefault = () => {
           <Button btnText="RANDOM OPPONENT" />
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 
