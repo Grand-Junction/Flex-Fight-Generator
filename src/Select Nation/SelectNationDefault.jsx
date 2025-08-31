@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
 import Button from "../Components/Button";
+import SelectNationChoice from "./SelectNationChoice";
 
 const SelectNationDefault = () => {
   return (
     <div>
-      <img
-        src="../assets/vg-card.png"
-        alt="generic vanguard card"
-        className="img-default"
-      />
+      <SelectNationChoice />
       <div className="results-btn">
         <Link to="/select">
           <Button btnText="SELECT NATION" />
