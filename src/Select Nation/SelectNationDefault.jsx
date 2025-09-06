@@ -3,7 +3,7 @@ import Button from "../Components/Button";
 
 const SelectNationDefault = () => {
   return (
-    <div>
+    <div id="select-nation-elements">
       <img
         src="../assets/vg-card.png"
         alt="generic vanguard card"
