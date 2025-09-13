@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import Button from "./Button";
 
-const Header = () => (
+const Header = () => {
   <header>
     <nav>
       <ul id="header-parent">
@@ -16,7 +16,7 @@ const Header = () => (
         </span>
       </ul>
     </nav>
-  </header>
-);
+  </header>;
+};
 
 export default Header;

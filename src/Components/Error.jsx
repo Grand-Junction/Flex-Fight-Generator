@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "./Button.jsx";
 
-const Error = () => (
+const Error = () => {
   <div id="error-div">
     <h1>404 Page Not Found</h1>
     <div className="results-btn">
@@ -9,7 +9,7 @@ const Error = () => (
         <Button btnText="RETURN" />
       </Link>
     </div>
-  </div>
-);
+  </div>;
+};
 
 export default Error;

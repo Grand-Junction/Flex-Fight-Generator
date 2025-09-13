@@ -3,7 +3,7 @@ import RandomOppDefault from "../Random Opponent/RandomOppDefault";
 import SelectNationDefault from "../Select Nation/SelectNationDefault";
 import RandomOppResult from "../Random Opponent/RandomOppResult";
 
-const FightCard = () => (
+const FightCard = () => {
   <>
     <div id="fight-main-div">
       <div className="fight-card">
@@ -13,7 +13,7 @@ const FightCard = () => (
         <SelectNationDefault />
       </div> */}
     </div>
-  </>
-);
+  </>;
+};
 
 export default FightCard;
