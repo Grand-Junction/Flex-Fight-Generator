@@ -3,12 +3,12 @@ import Header from "./Header";
 import Footer from "./Footer";
 import MainCardDefault from "../Main Card/MainCardDefault.jsx";
 
-const HomePage = () => (
+const HomePage = () => {
   <div id="homepage-parent-div">
     <Header />
     <MainCardDefault />
     <Footer />
-  </div>
-);
+  </div>;
+};
 
 export default HomePage;
