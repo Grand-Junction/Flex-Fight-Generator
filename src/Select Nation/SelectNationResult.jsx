@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Fighters from "../Fighters";
+import { useState } from "react";
+import keterFighters from "../NationFighters/keterFighters";
 import Button from "../Components/Button";
 import RenderedFighterRandom from "../Components/RenderedFighterRandom";
 import SelectNationUnchanged from "./SelectNationUnchanged";
