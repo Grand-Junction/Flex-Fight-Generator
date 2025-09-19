@@ -4,8 +4,12 @@ import SelectNationChoice from "./SelectNationChoice";
 
 const SelectNationDefault = () => {
   return (
-    <div>
-      <SelectNationChoice />
+    <div id="select-nation-elements">
+      <img
+        src="../assets/vg-card.png"
+        alt="generic vanguard card"
+        className="img-default"
+      />
       <div className="results-btn">
         <Link to="/select">
           <Button btnText="SELECT NATION" />
