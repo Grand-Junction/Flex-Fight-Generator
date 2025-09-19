@@ -5,7 +5,7 @@ import RandomOppPage from "../Random Opponent/RandomOppPage.jsx";
 import SelectNationPage from "../Select Nation/SelectNationPage.jsx";
 import Error from "./Error.jsx";
 
-const App = () => (
+const App = () => {
   <Router>
     <div>
       <Switch>
@@ -26,7 +26,7 @@ const App = () => (
         </Route>
       </Switch>
     </div>
-  </Router>
-);
+  </Router>;
+};
 
 export default App;

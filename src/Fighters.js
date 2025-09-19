@@ -1,5 +1,5 @@
-const Fighters = [
-  {
+const Fighters = {
+  yuki: {
     id: 1,
     fighter: "Yuki Ichidoji",
     card: "../assets/card-img/gramgrace-sieg.png",
@@ -7,7 +7,7 @@ const Fighters = [
     main: "Sword Saint Knight Dragon Emperor, Gramgrace Sieg",
     level: ["Hard", "Very Hard"],
   },
-  {
+  rasen: {
     id: 2,
     fighter: "Rasen Ichidoji",
     card: `../assets/card-img/rorowa.png`,
@@ -15,7 +15,7 @@ const Fighters = [
     main: "A Viridescent Flash, Rorowa",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  gosetsu: {
     id: 3,
     fighter: "Gosetsu Katsushika",
     card: `../assets/card-img/flagburg.png`,
@@ -23,7 +23,7 @@ const Fighters = [
     main: "Flagship Dragon, Flagburg Dragon",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  kanji: {
     id: 4,
     fighter: "Kanji Meguro",
     card: `../assets/card-img/favrneel.png`,
@@ -31,7 +31,7 @@ const Fighters = [
     main: "Purgatory Great Dragon Emperor, Favrneel Rheingold",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  tatsuki: {
     id: 5,
     fighter: "Tatsuki Bunkyo",
     card: `../assets/card-img/kheios.png`,
@@ -39,7 +39,7 @@ const Fighters = [
     main: "Soul Oratorio, Kheios",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  masaru: {
     id: 6,
     fighter: "Masaru Kita",
     card: "../assets/card-img/baromagnes.png",
@@ -47,7 +47,7 @@ const Fighters = [
     main: "Master of Gravity, Baromagnes",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  danji: {
     id: 7,
     fighter: "Danji Momoyama",
     card: "../assets/card-img/bruce.png",
@@ -55,7 +55,7 @@ const Fighters = [
     main: `Diabolos, "Viamance" Bruce`,
     level: ["Hard", "Very Hard"],
   },
-  {
+  suo: {
     id: 8,
     fighter: "Suo Yobitsugi",
     card: "../assets/card-img/blangdmire.png",
@@ -63,7 +63,7 @@ const Fighters = [
     main: "Fated One of Zero, Blangdmire",
     level: ["Hard", "Very Hard"],
   },
-  {
+  michiru: {
     id: 9,
     fighter: "Michiru Hazama",
     card: "../assets/card-img/drajeweled.png",
@@ -71,7 +71,7 @@ const Fighters = [
     main: "Demonic Jewel True Dragon, Drajeweled Ignis",
     level: ["Very Hard"],
   },
-  {
+  haru: {
     id: 10,
     fighter: "Haru Shinigawa",
     card: "../assets/card-img/thegrea.png",
@@ -79,7 +79,7 @@ const Fighters = [
     main: "Epee De Justice, Thegrea",
     level: ["Normal", "Hard", "Very Hard"],
   },
-  {
+  kuro: {
     id: 11,
     fighter: "Kuro Minato",
     card: "../assets/card-img/hexaorb.png",
@@ -87,7 +87,7 @@ const Fighters = [
     main: `Hexaorb Sorceress, "Aquamarine"`,
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  kisato: {
     id: 12,
     fighter: "Kisato Kuga",
     card: "../assets/card-img/majestylordblaster.png",
@@ -95,7 +95,7 @@ const Fighters = [
     main: "Majesty Lord Blaster",
     level: ["Normal", "Hard", "Very Hard"],
   },
-  {
+  gaku: {
     id: 13,
     fighter: "Gaku Nijo",
     card: "../assets/card-img/luard.png",
@@ -103,7 +103,7 @@ const Fighters = [
     main: "Dragheart, Luard",
     level: ["Normal", "Hard", "Very Hard"],
   },
-  {
+  raika: {
     id: 14,
     fighter: "Raika Koshiba",
     card: "../assets/card-img/youthberk.png",
@@ -111,7 +111,7 @@ const Fighters = [
     main: `Youthberk "Skyfall Arms"`,
     level: ["Hard", "Very Hard"],
   },
-  {
+  akina: {
     id: 15,
     fighter: "Akina Myodo",
     card: "../assets/card-img/rezael.png",
@@ -119,7 +119,7 @@ const Fighters = [
     main: "Fated One of Miracles, Rezael",
     level: ["Hard", "Very Hard"],
   },
-  {
+  erika: {
     id: 16,
     fighter: "Hikari Myodo (Future)",
     card: "../assets/card-img/amorta.png",
@@ -127,7 +127,7 @@ const Fighters = [
     main: "Fated One of Time, Liael=Amorta",
     level: ["Very Hard"],
   },
-  {
+  megumi: {
     id: 17,
     fighter: "Megumi Okura",
     card: "../assets/card-img/magnolia.png",
@@ -135,7 +135,7 @@ const Fighters = [
     main: "Sylvan Horned Beast Emperor, Magnolia Elder",
     level: ["Very Hard"],
   },
-  {
+  urara: {
     id: 18,
     fighter: "Urara Haneyama",
     card: "../assets/card-img/lianorn.png",
@@ -143,7 +143,7 @@ const Fighters = [
     main: "Marche Fleur, Lianorn Vivace",
     level: ["Hard", "Very Hard"],
   },
-  {
+  masenori: {
     id: 19,
     fighter: "Masenori Iseki",
     card: "../assets/card-img/zorga.png",
@@ -151,7 +151,7 @@ const Fighters = [
     main: "Fated One of Taboo, Zorga Nadir",
     level: ["Hard", "Very Hard"],
   },
-  {
+  mika: {
     id: 20,
     fighter: "Mika Shibuya",
     card: "../assets/card-img/kairi.png",
@@ -159,7 +159,7 @@ const Fighters = [
     main: "AstesicexLive, Kairi",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  kana: {
     id: 21,
     fighter: "Kana Aoyama",
     card: "../assets/card-img/fortia.png",
@@ -167,7 +167,7 @@ const Fighters = [
     main: "Full Moon Magic, Fortia",
     level: ["Normal", "Hard", "Very Hard"],
   },
-  {
+  yui: {
     id: 22,
     fighter: "Yui Itabashi",
     card: "../assets/card-img/loronerol.png",
@@ -175,7 +175,7 @@ const Fighters = [
     main: "Sing with Me, Loronerol",
     level: ["Normal", "Hard", "Very Hard"],
   },
-  {
+  mikoto: {
     id: 23,
     fighter: "Mikoto Saito",
     card: "../assets/card-img/krysrain.png",
@@ -183,7 +183,7 @@ const Fighters = [
     main: "Fated One of Ever-changing, Krysrain",
     level: ["Hard", "Very Hard"],
   },
-  {
+  doshi: {
     id: 24,
     fighter: "Doshi Nakano",
     card: "../assets/card-img/eugene.png",
@@ -191,7 +191,7 @@ const Fighters = [
     main: "Heavy Artillery of Dust Storm, Eugene",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  noi: {
     id: 27,
     fighter: "Noi Taito",
     card: "../assets/card-img/tamayura.png",
@@ -199,7 +199,7 @@ const Fighters = [
     main: "Will-o-wisp Daybreak, Tamayura",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  otawa: {
     id: 28,
     fighter: "Otawa Dosaki",
     card: "../assets/card-img/wirbel.png",
@@ -207,7 +207,7 @@ const Fighters = [
     main: "Hellfire Dragon, Wirbel Dragon",
     level: ["Hard", "Very Hard"],
   },
-  {
+  roh: {
     id: 29,
     fighter: "Roh Nijo",
     card: "../assets/card-img/shiranui.png",
@@ -215,7 +215,7 @@ const Fighters = [
     main: 'Demon Stealth Dragon, Shiranui "Oboro"',
     level: ["Very Hard"],
   },
-  {
+  yuyu: {
     id: 30,
     fighter: "Yu-yu Kondo",
     card: "../assets/card-img/nirvana.png",
@@ -223,7 +223,7 @@ const Fighters = [
     main: "Chakrabarthi Phoenix Dragon, Nirvana Jheva",
     level: ["Very Hard"],
   },
-  {
+  mirei: {
     id: 31,
     fighter: "Mirei Minae",
     card: "../assets/card-img/bavsargra.png",
@@ -231,7 +231,7 @@ const Fighters = [
     main: "Sealed Blaze Maiden, Bavsargra",
     level: ["Hard", "Very Hard"],
   },
-  {
+  nao: {
     id: 32,
     fighter: "Nao Inabe",
     card: "../assets/card-img/varga.png",
@@ -239,7 +239,7 @@ const Fighters = [
     main: "Fated One of Unparalleled, Varga Dragres",
     level: ["Hard", "Very Hard"],
   },
-  {
+  zero: {
     id: 33,
     fighter: "Zero Tendo",
     card: "../assets/card-img/vyrgilla.png",
@@ -247,7 +247,7 @@ const Fighters = [
     main: "Rewrite the Star, Vyrgilla",
     level: ["Very Hard"],
   },
-  {
+  taiji: {
     id: 34,
     fighter: "Taiji Arakawa",
     card: "../assets/card-img/eva.png",
@@ -255,7 +255,7 @@ const Fighters = [
     main: "Poison in Paradise, Eva",
     level: ["Easy", "Normal", "Hard", "Very Hard"],
   },
-  {
+  zakusa: {
     id: 35,
     fighter: "Zakusa Ishigame",
     card: "../assets/card-img/orfist.png",
@@ -263,7 +263,7 @@ const Fighters = [
     main: "Cardinal Dominus, Orfist Regis",
     level: ["Hard", "Very Hard"],
   },
-  {
+  tomari: {
     id: 36,
     fighter: "Tomari Seto",
     card: "../assets/card-img/prison.png",
@@ -271,7 +271,7 @@ const Fighters = [
     main: "Aurora Fierce Princess, Seraph Purelight",
     level: ["Hard", "Very Hard"],
   },
-  {
+  taizo: {
     id: 37,
     fighter: "Taizo Kiyokura",
     card: "../assets/card-img/welstra.png",
@@ -279,7 +279,7 @@ const Fighters = [
     main: `Fated One of Guiding Star, Welstra "Blitz Arms"`,
     level: ["Hard", "Very Hard"],
   },
-  {
+  jinki: {
     id: 38,
     fighter: "Jinki Mukae",
     card: "../assets/card-img/alden.png",
@@ -287,7 +287,7 @@ const Fighters = [
     main: "Destined One of Protection, Alden",
     level: ["Very Hard"],
   },
-  {
+  senka: {
     id: 39,
     fighter: "Senka Kanae",
     card: "../assets/card-img/impauldio.png",
@@ -295,7 +295,7 @@ const Fighters = [
     main: "Destined One of Exceedance, Impauldio",
     level: ["Very Hard"],
   },
-  {
+  kyohma: {
     id: 40,
     fighter: "Kyohma Kurosaki",
     card: "../assets/card-img/aelquilibra.png",
@@ -303,7 +303,7 @@ const Fighters = [
     main: "Destined One of Scales, Aelquilibra",
     level: ["Very Hard"],
   },
-  {
+  yuna: {
     id: 41,
     fighter: "Yuna Saionji",
     card: "../assets/card-img/lisciafael.png",
@@ -311,7 +311,7 @@ const Fighters = [
     main: "Destined One of Supremacy, Lisciafael",
     level: ["Very Hard"],
   },
-  {
+  kuon: {
     id: 42,
     fighter: "Kuon Aikawa",
     card: "../assets/card-img/levidras.png",
@@ -319,7 +319,7 @@ const Fighters = [
     main: "Destined King of Infinity, Levidras Empireo",
     level: ["Very Hard"],
   },
-  {
+  sybilt: {
     id: 43,
     fighter: "Sybilt-Nao",
     card: "../assets/card-img/rakshasa.png",
@@ -327,7 +327,7 @@ const Fighters = [
     main: `Unparalleled Drekasleif, Varga Dragres "Rakshasa"`,
     level: ["Very Hard"],
   },
-  {
+  hikari: {
     id: 44,
     fighter: "Hikari Myodo (Young)",
     card: "../assets/card-img/odium.png",
@@ -335,7 +335,7 @@ const Fighters = [
     main: "Destined One of Time, Liael=Odium",
     level: ["Very Hard"],
   },
-  {
+  tohya: {
     id: 45,
     fighter: "Tohya Ebata",
     card: "../assets/card-img/bastion.png",
@@ -343,6 +343,6 @@ const Fighters = [
     main: "Sword of the Nation, Bastion Accord",
     level: ["Hard", "Very Hard"],
   },
-];
+};
 
 export default Fighters;

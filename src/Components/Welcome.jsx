@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "./Button";
 
-const Welcome = () => (
+const Welcome = () => {
   <div id="welcome-div">
     <div className="welcome-div-2">
       <h1 id="welcome-child-1">
@@ -14,7 +14,7 @@ const Welcome = () => (
         </Link>
       </div>
     </div>
-  </div>
-);
+  </div>;
+};
 
 export default Welcome;
