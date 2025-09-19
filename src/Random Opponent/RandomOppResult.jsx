@@ -8,19 +8,20 @@ const RandomOppResult = () => {
   const [refreshPage, setRefreshPage] = useState(true);
 
   const randomRendered = () => {
-    const randomFighter = Math.floor(Math.random() * Fighters.length);
+    const fighterArray = [];
+    for (let fighter in Fighters) {
+      fighterArray.push(fighter);
+    }
 
-    const randomFighterID = Fighters[randomFighter].id;
-    const randomFighterCard = Fighters[randomFighter].card;
-    const randomFighterName = Fighters[randomFighter].fighter;
-    const randomFighterMain = Fighters[randomFighter].main;
+    const randomFighterChoice = Math.floor(Math.random() * fighterArray.length);
+    const randomFighter = fighterArray[randomFighterChoice];
 
     return (
       <RenderedFighterRandom
-        key={randomFighterID}
-        selectedImg={randomFighterCard}
-        selectedFighter={randomFighterName}
-        selectedMain={randomFighterMain}
+        key={Fighters[randomFighter].id}
+        selectedImg={Fighters[randomFighter].card}
+        selectedFighter={Fighters[randomFighter].fighter}
+        selectedMain={Fighters[randomFighter].main}
       />
     );
   };
